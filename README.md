@@ -2,7 +2,7 @@
 ## 降级
 
 ```
-wget https://raw.githubusercontent.com/qimomo/btpanel-v7.7.0/main/install/src/LinuxPanel-7.7.0.zip
+wget https://raw.githubusercontent.com/yimozi/btpanel-v7.7.0/main/install/src/LinuxPanel-7.7.0.zip
 unzip LinuxPanel-*
 cd panel
 bash update.sh
@@ -15,5 +15,5 @@ rm -f /www/server/panel/data/bind.pl
 ```
 # 直接安装
 ```
-curl -sSO https://raw.githubusercontent.com/qimomo/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://raw.githubusercontent.com/yimozi/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
 ```
